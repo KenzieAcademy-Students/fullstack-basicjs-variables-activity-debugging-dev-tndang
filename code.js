@@ -9,11 +9,11 @@
 // find the errors and correct them.  Then use the debugger to answer the assignment questions.
 
 // Example 1
-const addFive = function (firstNumber)
+const addFive = function (firstNumber) {
     let addOn = 5
     let sum = firstNumber + addOn
     console.log(sum)
-
+}
 
 addFive(7)
 
@@ -24,8 +24,8 @@ addFive("10")
 // Example 2
 const helloKenzie = function () {
     let message = "Hello Kenzie"
+    console.log(message)
 }
-console.log(message)
 
 helloKenzie()
 
@@ -34,8 +34,8 @@ helloKenzie()
 // Example 3
 const greeting = function (name) {
     let message
-    message = "Hello" + name
-    console.log(mesage)
+    message = "Hello " + name
+    console.log(message)
 }
 
 greeting("David")
